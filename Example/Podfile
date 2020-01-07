@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ASUserAgreementAndPrivacyViewKit_Example' do
+  pod 'ASUserAgreementAndPrivacyViewKit', :path => '../'
+
+  target 'ASUserAgreementAndPrivacyViewKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
