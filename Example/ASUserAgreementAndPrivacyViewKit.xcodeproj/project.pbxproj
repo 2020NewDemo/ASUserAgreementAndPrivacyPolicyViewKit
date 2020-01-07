@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1C7A26B0F30AE4B0E7D78B98 /* Pods-ASUserAgreementAndPrivacyViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASUserAgreementAndPrivacyViewKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ASUserAgreementAndPrivacyViewKit_Tests/Pods-ASUserAgreementAndPrivacyViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1DFB4F01DB15BF912908E4AA /* Pods-ASUserAgreementAndPrivacyViewKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASUserAgreementAndPrivacyViewKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ASUserAgreementAndPrivacyViewKit_Example/Pods-ASUserAgreementAndPrivacyViewKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D71448C98080A742E3D5FB2 /* ASUserAgreementAndPrivacyViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASUserAgreementAndPrivacyViewKit.podspec; path = ../ASUserAgreementAndPrivacyViewKit.podspec; sourceTree = "<group>"; };
+		4D71448C98080A742E3D5FB2 /* ASUserAgreementAndPrivacyViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASUserAgreementAndPrivacyViewKit.podspec; path = ../ASUserAgreementAndPrivacyViewKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ASUserAgreementAndPrivacyViewKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASUserAgreementAndPrivacyViewKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		627EBDB4D419A0BC60303A48 /* Pods_ASUserAgreementAndPrivacyViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASUserAgreementAndPrivacyViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C24CEC72409CF440659606E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9C24CEC72409CF440659606E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D5808916128FB73D9A9DC962 /* Pods_ASUserAgreementAndPrivacyViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASUserAgreementAndPrivacyViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB8DA4E3C48E59A79C7319D /* Pods-ASUserAgreementAndPrivacyViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASUserAgreementAndPrivacyViewKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ASUserAgreementAndPrivacyViewKit_Tests/Pods-ASUserAgreementAndPrivacyViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F2728E63053E8D631AB2429D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2728E63053E8D631AB2429D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F51E230D9CC7C4BDA58D955C /* Pods-ASUserAgreementAndPrivacyViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASUserAgreementAndPrivacyViewKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ASUserAgreementAndPrivacyViewKit_Example/Pods-ASUserAgreementAndPrivacyViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				EBB8DA4E3C48E59A79C7319D /* Pods-ASUserAgreementAndPrivacyViewKit_Tests.debug.xcconfig */,
 				1C7A26B0F30AE4B0E7D78B98 /* Pods-ASUserAgreementAndPrivacyViewKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "614544959@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MVGBX5DTX9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 1DFB4F01DB15BF912908E4AA /* Pods-ASUserAgreementAndPrivacyViewKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASUserAgreementAndPrivacyViewKit/ASUserAgreementAndPrivacyViewKit-Prefix.pch";
 				INFOPLIST_FILE = "ASUserAgreementAndPrivacyViewKit/ASUserAgreementAndPrivacyViewKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = F51E230D9CC7C4BDA58D955C /* Pods-ASUserAgreementAndPrivacyViewKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASUserAgreementAndPrivacyViewKit/ASUserAgreementAndPrivacyViewKit-Prefix.pch";
 				INFOPLIST_FILE = "ASUserAgreementAndPrivacyViewKit/ASUserAgreementAndPrivacyViewKit-Info.plist";

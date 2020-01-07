@@ -1,0 +1,16 @@
+PODS:
+  - ASUserAgreementAndPrivacyViewKit (0.1.0)
+
+DEPENDENCIES:
+  - ASUserAgreementAndPrivacyViewKit (from `../`)
+
+EXTERNAL SOURCES:
+  ASUserAgreementAndPrivacyViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASUserAgreementAndPrivacyViewKit: ca0d21088c354112427b91d555a309773df31892
+
+PODFILE CHECKSUM: 4d29bb6d846dbfc85462af8fbc194e97846ae561
+
+COCOAPODS: 1.8.4

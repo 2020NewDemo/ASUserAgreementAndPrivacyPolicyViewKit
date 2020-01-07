@@ -1,0 +1,6 @@
+framework module Pods_ASUserAgreementAndPrivacyViewKit_Tests {
+  umbrella header "Pods-ASUserAgreementAndPrivacyViewKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

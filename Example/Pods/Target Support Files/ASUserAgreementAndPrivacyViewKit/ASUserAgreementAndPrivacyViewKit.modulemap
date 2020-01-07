@@ -1,0 +1,6 @@
+framework module ASUserAgreementAndPrivacyViewKit {
+  umbrella header "ASUserAgreementAndPrivacyViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
